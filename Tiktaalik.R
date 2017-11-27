@@ -2,6 +2,7 @@
 function(FUN, lower, upper, control = list(), ...) {
   ## Differential Evolution Optimization
   ## David Ardia -- 2005-08-08
+  ## tmeits 2017
 
   if (missing(FUN))
     stop("'FUN' is missing") 
